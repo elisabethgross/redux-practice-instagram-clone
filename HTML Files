@@ -1,4 +1,9 @@
 ---------------------------- cut here for the Photo html, this should be what you render for each post in the photo grid
+
+ADD THIS TO THE TOP OF YOUR FILE SO YOU CAN USE COOL ANIMATIONS!
+
+import CSSTransitionGroup from 'react-addons-css-transition-group';
+
 <figure className="grid-figure">
   <div className="grid-photo-wrap">
     <Link to={`/view/${post.code}`}>
